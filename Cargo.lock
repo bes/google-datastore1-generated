@@ -329,7 +329,7 @@ dependencies = [
 [[package]]
 name = "google_api_auth"
 version = "0.1.0"
-source = "git+https://github.com/google-apis-rs/generator?branch=refactor/async#2d5887365397732ab34c15d5aae71a0213890806"
+source = "git+https://github.com/bes/generator?branch=refactor/async#2d5887365397732ab34c15d5aae71a0213890806"
 dependencies = [
  "async-trait",
  "hyper",
@@ -338,7 +338,7 @@ dependencies = [
 [[package]]
 name = "google_api_bytes"
 version = "0.1.0"
-source = "git+https://github.com/google-apis-rs/generator#9ad1f063e5046f2f404ea77f0116e0fd25b4246d"
+source = "git+https://github.com/bes/generator#9ad1f063e5046f2f404ea77f0116e0fd25b4246d"
 dependencies = [
  "radix64",
  "serde",
@@ -347,7 +347,7 @@ dependencies = [
 [[package]]
 name = "google_field_selector"
 version = "0.1.0"
-source = "git+https://github.com/google-apis-rs/generator?branch=refactor/async#2d5887365397732ab34c15d5aae71a0213890806"
+source = "git+https://github.com/bes/generator?branch=refactor/async#2d5887365397732ab34c15d5aae71a0213890806"
 dependencies = [
  "google_field_selector_derive",
 ]
@@ -355,7 +355,7 @@ dependencies = [
 [[package]]
 name = "google_field_selector_derive"
 version = "0.1.0"
-source = "git+https://github.com/google-apis-rs/generator?branch=refactor/async#2d5887365397732ab34c15d5aae71a0213890806"
+source = "git+https://github.com/bes/generator?branch=refactor/async#2d5887365397732ab34c15d5aae71a0213890806"
 dependencies = [
  "proc-macro2",
  "quote",
